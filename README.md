@@ -71,7 +71,7 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
 
 **test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly  added and if the data has been inserted.)
 
-NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).
+NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).  Adjust your connection to the database to reflect the difference.  
 
  
 ### Many thanks to [Joshua Yeung](https://towardsdatascience.com/data-modeling-for-a-music-streaming-app-db46a4595e4e) for the star schema image!
