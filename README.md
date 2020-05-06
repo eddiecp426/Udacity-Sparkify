@@ -15,18 +15,18 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
 
 ### Song Metadata Foramt
 
-`{
-num_songs:1
-artist_id:"ARD7TVE1187B99BFB1"
-artist_latitude:null
-artist_longitude:null
-artist_location:"California - LA"
-artist_name:"Casual"
-song_id:"SOMZWCG12A8C13C480"
-title:"I Didn't Mean To"
-duration:218.93179
-year:0
-}`
+   `{
+      num_songs:1,
+      artist_id:"ARD7TVE1187B99BFB1",
+      artist_latitude:null,
+      artist_longitude:null,
+      artist_location:"California - LA",
+      artist_name:"Casual",
+      song_id:"SOMZWCG12A8C13C480",
+      title:"I Didn't Mean To",
+      duration:218.93179,
+      year:0
+   }`
 
 ### User Metadata Format
 
@@ -74,3 +74,4 @@ year:0
 NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).
 
  
+### Many thanks to [Joshua Yeung](https://towardsdatascience.com/data-modeling-for-a-music-streaming-app-db46a4595e4e) for the star schema image!
