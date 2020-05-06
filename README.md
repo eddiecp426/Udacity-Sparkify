@@ -11,26 +11,26 @@ A (fake) startup comapnay called Sparkify wants to analyze the data they've been
    
 ## Data
 
-The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using python  The data was parsed as the key and value pairs were used in the tables.   
+The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using python  The data was parsed as the key and value pairs were used in the tables.  
 
-## Song Data Format
+### Song Metadata Foramt
 
-{
- num_songs:1
- artist_id:"ARKRRTF1187B9984DA"
- artist_latitude:null
- artist_longitude:null
- artist_location:""
- artist_name:"Sonora Santanera"
- song_id:"SOXVLOJ12AB0189215"
- title:"Amor De Cabaret"
- duration:177.47546
- year:0
- }
- 
- ## User Data Format
- 
- {
+`{
+num_songs:1
+artist_id:"ARD7TVE1187B99BFB1"
+artist_latitude:null
+artist_longitude:null
+artist_location:"California - LA"
+artist_name:"Casual"
+song_id:"SOMZWCG12A8C13C480"
+title:"I Didn't Mean To"
+duration:218.93179
+year:0
+}`
+
+### User Metadata Format
+
+`{
   "artist": "Survivor",
   "auth": "Logged In",
   "firstName": "Jayden",
@@ -49,16 +49,28 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
   "ts": 1541110994796,
   "userAgent": "\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\"",
   "userId": "101"
-  }
-  
- ## Table Goals
+}`
+
+## Table Goals
+ 
+ This star schema contains 1 fact table, songplays, and 4 dimension tables, artists, users, time, and songs. 
  
  <p align="center">
 <img src="data/ft.png" width="700" height="500">
 </p>
 
-## EDA
- 
-## Taking a Closer Look at the Data
+## Repo Files
 
-## Conclusion and Future work
+**create_tables.py** - Running this script in the terminal will drop the Sparkify database and and create a new database with new tables. 
+
+**etl.ipynb** - This notebook develops the ETL process for each table. 
+
+**etl.py** - This script will process all datasets 
+
+**sql_queries.py** -  This file contains all of the insert and select statements for the Sparkify Database.  
+
+**test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly  added and if the data has been inserted.)
+
+NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).
+
+ 
