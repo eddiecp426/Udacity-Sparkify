@@ -69,7 +69,7 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
 
 **sql_queries.py** -  This file contains all of the insert and select statements for the Sparkify Database.  
 
-**test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly  added and if the data has been inserted.)
+**test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly added and if the data has been inserted.)
 
 NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).  Adjust your connection to the database to reflect the difference.  
 
