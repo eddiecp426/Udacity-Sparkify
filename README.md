@@ -50,7 +50,12 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
   "userAgent": "\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36\"",
   "userId": "101"
   }
-
+  
+ ## Table Goals
+ 
+ <p align="center">
+<img src="images/ft.png" width="700" height="500">
+</p>
 
 ## EDA
  
