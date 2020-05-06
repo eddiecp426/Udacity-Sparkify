@@ -54,7 +54,7 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
  ## Table Goals
  
  <p align="center">
-<img src="images/ft.png" width="700" height="500">
+<img src="data/ft.png" width="700" height="500">
 </p>
 
 ## EDA
