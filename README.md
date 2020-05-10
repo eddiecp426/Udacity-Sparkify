@@ -2,7 +2,7 @@
 
 ## Project Purpose and Description
 
-A (fake) startup company called Sparkify wants to analyze the data they've been collecting on music and user activity on a new music streaming app.  The data team is particularly interested in viewing the type of music that their users are spending the most time listening to.  Even for the simplest of searches, they have an extremely difficult time accesing the information.  Sparkify wants to create tables using PostgreSQL to find the soulution to simple queries.  In this project, I created a pipepline using Python and PostgreSQL, that puts song and user data into tables.  
+A (fake) startup company called Sparkify wants to analyze the data they've been collecting on music and user activity on a new music streaming app.  The data team is particularly interested in viewing the type of music that their users are spending the most time listening to.  Even for the simplest of searches, they have an extremely difficult time accesing the information.  Sparkify wants to create tables using PostgreSQL to find the soulution to simple queries.  In this project, I created a pipepline using Python and PostgreSQL, that puts song and user data  into tables.  
 
 ## Tools (all using Python and its various libraries)
    - Pandas
@@ -11,7 +11,7 @@ A (fake) startup company called Sparkify wants to analyze the data they've been 
    
 ## Data
 
-The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using python  The data was parsed as the key and value pairs were used in the tables.  
+The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using python, the data was parsed as the key and value pairs were used in the tables.  
 
 ### Song Metadata Foramt
 
