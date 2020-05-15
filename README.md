@@ -2,7 +2,7 @@
 
 ## Project Purpose and Description
 
-A (fake) startup company called Sparkify wants to analyze the data they've been collecting on music and user activity on a new music streaming app.  The data team is particularly interested in viewing the type of music that their users are spending the most time listening to.  Even for the simplest of searches, they have an extremely difficult time accesing the information.  Sparkify wants to create tables using PostgreSQL to find the soulution to simple queries.  In this project, I created a pipepline using Python and PostgreSQL, that puts song and user data  into tables.  
+A (fake) startup company called Sparkify wants to analyze the data they've been collecting on music and user activity on a new music streaming app.  The data team is particularly interested in viewing the type of music that their users are spending the most time listening to.  Even for the simplest of searches, they have an extremely difficult time accesing the information.  Sparkify wants to create tables using PostgreSQL to find the soulution to simple queries.  In this project, I created a pipepline using Python and PostgreSQL, that puts song and user data into tables.  
 
 ## Tools (all using Python and its various libraries)
    - Pandas
@@ -11,7 +11,7 @@ A (fake) startup company called Sparkify wants to analyze the data they've been 
    
 ## Data
 
-The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using python, the data was parsed as the key and value pairs were used in the tables.  
+The data is in the form of JSON metadata on songs and JSON logs on meta data.  Using Python, the data was parsed as the key and value pairs were used in the tables.  
 
 ### Song Metadata Foramt
 
@@ -61,15 +61,15 @@ The data is in the form of JSON metadata on songs and JSON logs on meta data.  U
 
 ## Repo Files
 
-**create_tables.py** - Running this script in the terminal will drop the Sparkify database and and create a new database with new tables. 
+**create_tables.py** - Running this script in the terminal will drop the Sparkify database and create a new database with new tables. 
 
 **etl.ipynb** - This notebook develops the ETL process for each table. 
 
-**etl.py** - This script will process all datasets 
+**etl.py** - This script will process all datasets.
 
 **sql_queries.py** -  This file contains all of the insert and select statements for the Sparkify Database.  
 
-**test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly added and if the data has been inserted.)
+**test.ipynb** - After connecting to the database, this script tests the queries in sql_queries.py (you can also use this to test if your tables have been properly added and if the data has been inserted)
 
 NOTE:  To run these files, you must create your own instance of database. There are several options.  A free and popular one you can use is [elephantsql](https://customer.elephantsql.com/instance/create).  Adjust your connection to the database to reflect the difference.  
 
